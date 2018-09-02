@@ -1,0 +1,6 @@
+﻿
+
+
+V 1.0.0.2
+* Don't print ItemType which is Relationships in packagechecker
+* New feature: adding env=[your-specific-env] parameter to AMLRunner will add and execute the amls in the subfolder env\[your-specific-env] of the original folder specified in teh manifest file

@@ -1,0 +1,542 @@
+Version: 11.0 (build 6549)
+
+
+-----params------
+args[0]     server=http://localhost/ArasHome
+args[1]     database=HcHomeArasR11SP12
+args[2]     login=root
+args[4]     dir=C:\Users\hille\Development\git\hcarashome\deploy\packages\arashome
+args[5]     mfFile=C:\Users\hille\OneDrive\Development\git\arashome\deploy\packages\arashome\myimports.mf
+args[6]     release=11.12.001
+args[7]     import
+args[8]     merge
+args[9]     vlog
+-----params------
+
+----parsed params----
+
+server      http://localhost/ArasHome
+database    HcHomeArasR11SP12
+login       root
+Dir         C:\Users\hille\Development\git\hcarashome\deploy\packages\arashome
+timeout     0
+Log file    C:\Users\hille\Development\git\hcarashome\deploy\log\2018-9-2.9-51.log
+Manifest    C:\Users\hille\OneDrive\Development\git\arashome\deploy\packages\arashome\myimports.mf
+import      Import
+Fast mode   False
+merge       True
+verbose     False
+release     11.12.001
+vlog        True
+description 
+
+----parsed params----
+Start of importing packages
+start of execution : 09/02/2018 09:51:19
+Updating aras.labs.RefreshFromDatabase to 'inprogress' release status
+       ****Import with merge option aras.labs.RefreshFromDatabase****
+Processing (add)   id : 058191470A844487B51B2F5F78A785CF    keyed_name : Refresh from Database    type : Method  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 058191470A844487B51B2F5F78A785CF    keyed_name : Refresh from Database    type : Method  
+Adding item into PackageDefinition with id = 058191470A844487B51B2F5F78A785CF and type = Method
+Getting config_id  of versionable item  id  058191470A844487B51B2F5F78A785CF type Method
+Item successfully added in packdefinition  id  058191470A844487B51B2F5F78A785CF type Method
+Processing (add)   id : A0490E44FEED435AA64022F4EBE1A19A    keyed_name : aras_labs.twt_refresh_from_db    type : CommandBarButton  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>CommandBarButton</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : A0490E44FEED435AA64022F4EBE1A19A    keyed_name : aras_labs.twt_refresh_from_db    type : CommandBarButton  
+Adding item into PackageDefinition with id = A0490E44FEED435AA64022F4EBE1A19A and type = CommandBarButton
+Item successfully added in packdefinition  id  A0490E44FEED435AA64022F4EBE1A19A type CommandBarButton
+Processing (add)   id : 59FF1B073BB54D8BACC0D23D1B80C96A    keyed_name : aras_labs.twmm_refresh_from_db    type : CommandBarMenuButton  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>CommandBarMenuButton</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 59FF1B073BB54D8BACC0D23D1B80C96A    keyed_name : aras_labs.twmm_refresh_from_db    type : CommandBarMenuButton  
+Adding item into PackageDefinition with id = 59FF1B073BB54D8BACC0D23D1B80C96A and type = CommandBarMenuButton
+Item successfully added in packdefinition  id  59FF1B073BB54D8BACC0D23D1B80C96A type CommandBarMenuButton
+Processing (add)   id : FA9EE10174E146FBBBE9EFB23782C2E5    keyed_name : FA9EE10174E146FBBBE9EFB23782C2E5    type : CommandBarSectionItem  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>CommandBarSectionItem</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : FA9EE10174E146FBBBE9EFB23782C2E5    keyed_name : FA9EE10174E146FBBBE9EFB23782C2E5    type : CommandBarSectionItem  
+Adding item into PackageDefinition with id = FA9EE10174E146FBBBE9EFB23782C2E5 and type = CommandBarSectionItem
+Item successfully added in packdefinition  id  FA9EE10174E146FBBBE9EFB23782C2E5 type CommandBarSectionItem
+Processing (add)   id : FC938C36D64840CE8926B4BF6599BAD3    keyed_name : FC938C36D64840CE8926B4BF6599BAD3    type : CommandBarSectionItem  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>CommandBarSectionItem</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained fstart of execution : 09/02/2018 09:51:20
+Updating DatabaseIdentifier to 'inprogress' release status
+       ****Import with merge option DatabaseIdentifier****
+Processing (add)   id : B4D1358E296243C2A24308470B26F956    keyed_name : MSBuildNumber    type : Variable  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>Variable</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : B4D1358E296243C2A24308470B26F956    keyed_name : MSBuildNumber    type : Variable  
+Adding item into PackageDefinition with id = B4D1358E296243C2A24308470B26F956 and type = Variable
+Item already exist in packdefinition  id  B4D1358E296243C2A24308470B26F956 type Variable
+completed
+Updating DatabaseIdentifier to success release status
+end of execution : 09/02start of execution : 09/02/2018 09:51:21
+Updating se.hilleconsultit.hccore to 'inprogress' release status
+       ****Import with merge option se.hilleconsultit.hccore****
+Processing (add)   id : 0285BC3D55A24950BA6884C27915556B    keyed_name : HC ValidationTypes    type : List  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>List</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+<Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+<Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Value</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 0285BC3D55A24950BA6884C27915556B    keyed_name : HC ValidationTypes    type : List  
+Adding item into PackageDefinition with id = 0285BC3D55A24950BA6884C27915556B and type = List
+Item successfully added in packdefinition  id  0285BC3D55A24950BA6884C27915556B type List
+Processing (add)   id : 3E12DE4590E04F3F9AC47F4347E09D23    keyed_name : HC Properties    type : Permission  
+********** Start of reference checking ************
+checking item with get action:<Item type="Identity" action="get" select="id"><name>World</name></Item>
+-> was obtained from server
+<Item type='ItemType' action='get' select='id'><name>Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+<Item type='ItemType' action='get' select='id'><name>Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+<Item type='ItemType' action='get' select='id'><name>Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for related items
+<Item type='Identity' action='get' levels='0'><id>2618D6F5A90949BAA7E920D1B04C7EE1</id></Item>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 3E12DE4590E04F3F9AC47F4347E09D23    keyed_name : HC Properties    type : Permission  
+Adding item into PackageDefinition with id = 3E12DE4590E04F3F9AC47F4347E09D23 and type = Permission
+Item successfully added in packdefinition  id  3E12DE4590E04F3F9AC47F4347E09D23 type Permission
+Processing (add)   id : B69BE0F900764DC08A61D033A6CE5BC5    keyed_name : HC_AddFile    type : Method  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : B69BE0F900764DC08A61D033A6CE5BC5    keyed_name : HC_AddFile    type : Method  
+Adding item into PackageDefinition with id = B69BE0F900764DC08A61D033A6CE5BC5 and type = Method
+Getting config_id  of versionable item  id  B69BE0F900764DC08A61D033A6CE5BC5 type Method
+Item successfully added in packdefinition  id  B69BE0F900764DC08A61D033A6CE5BC5 type Method
+Processing (add)   id : 1E07252F7B74409ABDFF615ECA68B137    keyed_name : HC_CommonDontAdd    type : Method  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 1E07252F7B74409ABDFF615ECA68B137    keyed_name : HC_CommonDontAdd    type : Method  
+Adding item into PackageDefinition with id = 1E07252F7B74409ABDFF615ECA68B137 and type = Method
+Getting config_id  of versionable item  id  1E07252F7B74409ABDFF615ECA68B137 type Method
+Item successfully added in packdefinition  id  1E07252F7B74409ABDFF615ECA68B137 type Method
+Processing (add)   id : 05B2F656366B4BA28249597F1B4A1661    keyed_name : HC_FixNameIdentity    type : Method  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 05B2F656366B4BA28249597F1B4A1661    keyed_name : HC_FixNameIdentity    type : Method  
+Adding item into PackageDefinition with id = 05B2F656366B4BA28249597F1B4A1661 and type = Method
+Getting config_id  of versionable item  id  05B2F656366B4BA28249597F1B4A1661 type Method
+Item successfully added in packdefinition  id  05B2F656366B4BA28249597F1B4A1661 type Method
+Processing (add)   id : A6B271F2F25F4DD9A7D806133F1DF5BA    keyed_name : HC_GetPropertyValue_Generic    type : Method  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : A6B271F2F25F4DD9A7D806133F1DF5BA    keyed_name : HC_GetPropertyValue_Generic    type : Method  
+Adding item into PackageDefinition with id = A6B271F2F25F4DD9A7D806133F1DF5BA and type = Method
+Getting config_id  of versionable item  id  A6B271F2F25F4DD9A7D806133F1DF5BA type Method
+Item successfully added in packdefinition  id  A6B271F2F25F4DD9A7D806133F1DF5BA type Method
+Processing (add)   id : 1061162AF3DE42598406AAEDCE42C1EC    keyed_name : HC_IsPropertyEnabled_Generic    type : Method  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 1061162AF3DE42598406AAEDCE42C1EC    keyed_name : HC_IsPropertyEnabled_Generic    type : Method  
+Adding item into PackageDefinition with id = 1061162AF3DE42598406AAEDCE42C1EC and type = Method
+Getting config_id  of versionable item  id  1061162AF3DE42598406AAEDCE42C1EC type Method
+Item successfully added in packdefinition  id  1061162AF3DE42598406AAEDCE42C1EC type Method
+Processing (add)   id : F020FA8ACE5E40A39F16FFED44653E20    keyed_name : HC Properties    type : Form  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+<Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : F020FA8ACE5E40A39F16FFED44653E20    keyed_name : HC Properties    type : Form  
+Adding item into PackageDefinition with id = F020FA8ACE5E40A39F16FFED44653E20 and type = Form
+Item successfully added in packdefinition  id  F020FA8ACE5E40A39F16FFED44653E20 type Form
+Processing (add)   id : 4F4B5D93DC1C41E2B8859CE693F5D29D    keyed_name : HC Validation Item    type : Form  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 4F4B5D93DC1C41E2B8859CE693F5D29D    keyed_name : HC Validation Item    type : Form  
+Adding item into PackageDefinition with id = 4F4B5D93DC1C41E2B8859CE693F5D29D and type = Form
+Item successfully added in packdefinition  id  4F4B5D93DC1C41E2B8859CE693F5D29D type Form
+Processing (add)   id : E07DD18813B94882BD9C2BDF967B848C    keyed_name : HC ValidationItem    type : Form  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>Form</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Body</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : E07DD18813B94882BD9C2BDF967B848C    keyed_name : HC ValidationItem    type : Form  
+Adding item into PackageDefinition with id = E07DD18813B94882BD9C2BDF967B848C and type = Form
+Item successfully added in packdefinition  id  E07DD18813B94882BD9C2BDF967B848C type Form
+Processing (add)   id : C123CD200C1F4E6984338C5FA0067426    keyed_name : HC Properties    type : ItemType  
+********** Start of reference checking ************
+checking item with get action:<Item type="Identity" action="get" select="id"><name>World</name></Item>
+-> was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+<Item type='ItemType' action='get' select='id'><name>ItemType Life Cycle</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+<Item type='ItemType' action='get' select='id'><name>TOC Access</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+<Item type='ItemType' action='get' select='id'><name>Can Add</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+<Item type='ItemType' action='get' select='id'><name>Allowed Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>Identity</name></Item>
+  was obtained from server
+checking for related items
+<Item type='Form' action='get' levels='0'><id>F020FA8ACE5E40A39F16FFED44653E20</id></Item>
+   was obtained from server
+checking for related items
+<Item type='Life Cycle Map' action='get' levels='0'><id>CEA87EBAC6BE4F528EED0B00314EFD3B</id></Item>
+   was obtained from server
+checking for related items
+<Item type='Identity' action='get' levels='0'><id>2618D6F5A90949BAA7E920D1B04C7EE1</id></Item>
+   was obtained from cache
+checking for related items
+<Item type='Identity' action='get' levels='0'><id>2618D6F5A90949BAA7E920D1B04C7EE1</id></Item>
+   was obtained from cache
+checking for related items
+<Item type='Permission' action='get' levels='0'><id>3E12DE4590E04F3F9AC47F4347E09D23</id></Item>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : C123CD200C1F4E6984338C5FA0067426    keyed_name : HC Properties    type : ItemType  
+Adding item into PackageDefinition with id = C123CD200C1F4E6984338C5FA0067426 and type = ItemType
+Item successfully added in packdefinition  id  C123CD200C1F4E6984338C5FA0067426 type ItemType
+Processing (edit)   id : C123CD200C1F4E6984338C5FA0067426     type : ItemType  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(edit)   id : C123CD200C1F4E6984338C5FA0067426     type : ItemType  
+Processing (add)   id : 4D1DA47DD2574D06BC31D7308D05F4A4    keyed_name : HC Validation    type : ItemType  
+********** Start of reference checking ************
+checking item with get action:<Item type="Method" action="get" select="id"><name>HC_CommonDontAdd</name></Item>
+-> was obtained from server
+checking item with get action:<Item type="Identity" action="get" select="id"><name>World</name></Item>
+-> was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+<Item type='ItemType' action='get' select='id'><name>ItemType Life Cycle</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Can Add</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Allowed Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Allowed Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Allowed Permission</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking <data_source> reference to the ItemType
+<Item type='ItemType' action='get' select='id'><name>HC Validation Item</name></Item>
+checking <data_source> reference to list/sequence
+<Item action='get' type='list' select='id'><id>0285BC3D55A24950BA6884C27915556B</id></Item>
+  was obtained from server
+checking for related items
+<Item type='Life Cycle Map' action='get' levels='0'><id>2F3B75E17C4E4F2D9599579A965BFA64</id></Item>
+   was obtained from server
+checking for related items
+<Item type='Permission' action='get' levels='0'><id>9122CD065CF04141B8EFE263FC80BEA4</id></Item>
+   was obtained from server
+WARNING: The following portion of the AML 
+<data_source keyed_name="HC Validation Item" type="ItemType" name="HC Validation Item">2A448CB136784394AC5F4F0BB81ED55A</data_source>
+contains unresolved reference that will be tried to resolve at the end of the package import
+************* End of reference checking ************
+Item successfully applied(add)   id : 4D1DA47DD2574D06BC31D7308D05F4A4    keyed_name : HC Validation    type : ItemType  
+Adding item into PackageDefinition with id = 4D1DA47DD2574D06BC31D7308D05F4A4 and type = ItemType
+Item successfully added in packdefinition  id  4D1DA47DD2574D06BC31D7308D05F4A4 type ItemType
+Processing (add)   id : 2A448CB136784394AC5F4F0BB81ED55A    keyed_name : HC Validation Item    type : ItemType  
+********** Start of reference checking ************
+checking item with get action:<Item type="Identity" action="get" select="id"><name>World</name></Item>
+-> was obtained from cache
+checking item with get action:<Item type="Identity" action="get" select="id"><name>World</name></Item>
+-> was obtained from cache
+checking item with get action:<Item type="Method" action="get" select="id"><name>polymorphic_item_onBeforeAdd</name></Item>
+-> was obtained from server
+checking item with get action:<Item type="Method" action="get" select="id"><name>polymorphic_item_onBeforeCopy</name></Item>
+-> was obtained from server
+checking item with get action:<Item type="Method" action="get" select="id"><name>polymorphic_item_onBeforeDelete</name></Item>
+-> was obtained from server
+checking item with get action:<Item type="Method" action="get" select="id"><name>polymorphic_item_onBeforeLock</name></Item>
+-> was obtained from server
+checking item with get action:<Item type="Method" action="get" select="id"><name>polymorphic_item_onBeforeUnlock</name></Item>
+-> was obtained from server
+checking item with get action:<Item type="Method" action="get" select="id"><name>polymorphic_item_onBeforeUpdate</name></Item>
+-> was obtained from server
+checking item with get action:<Item type="Method" action="get" select="id"><name>polymorphic_item_onBeforeVersion</name></Item>
+-> was obtained from server
+<Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>View</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for related items
+<Item type='Form' action='get' levels='0'><id>E07DD18813B94882BD9C2BDF967B848C</id></Item>
+   was obtained from server
+checking for related items
+<Item type='Form' action='get' levels='0'><id>4F4B5D93DC1C41E2B8859CE693F5D29D</id></Item>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 2A448CB136784394AC5F4F0BB81ED55A    keyed_name : HC Validation Item    type : ItemType  
+Adding item into PackageDefinition with id = 2A448CB136784394AC5F4F0BB81ED55A and type = ItemType
+Item successfully added in packdefinition  id  2A448CB136784394AC5F4F0BB81ED55A type ItemType
+Processing (edit)   id : 2A448CB136784394AC5F4F0BB81ED55A     type : ItemType  
+********** Start of reference checking ************
+checking item with get action:<Item type="List" action="get" select="id" page="1" pagesize="1"><name>HC Validation Item</name></Item>
+-> was obtained from server
+<Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Property</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(edit)   id : 2A448CB136784394AC5F4F0BB81ED55A     type : ItemType  
+Processing (edit)   id : 2A448CB136784394AC5F4F0BB81ED55A     type : ItemType  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Morphae</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking for related items
+<Item type='ItemType' action='get' levels='0'><id>4F1AC04A2B484F3ABA4E20DB63808A88</id></Item>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(edit)   id : 2A448CB136784394AC5F4F0BB81ED55A     type : ItemType  
+Processing (edit)   id : 2A448CB136784394AC5F4F0BB81ED55A     type : ItemType  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Morphae</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for related items
+<Item type='ItemType' action='get' levels='0'><id>B88C14B99EF449828C5D926E39EE8B89</id></Item>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(edit)   id : 2A448CB136784394AC5F4F0BB81ED55A     type : ItemType  
+Processing (edit)   id : 2A448CB136784394AC5F4F0BB81ED55A     type : ItemType  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>ItemType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Morphae</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+checking for related items
+<Item type='ItemType' action='get' levels='0'><id>CCF205347C814DD1AF056875E0A880AC</id></Item>
+   was obtained from server
+************* End of reference checking ************
+Item successfully applied(edit)   id : 2A448CB136784394AC5F4F0BB81ED55A     type : ItemType  
+Processing (edit)   id : 48C0DBC79BD841509E49ED2EA9D3ABCD     type : Field  
+********** Start of reference checking ************
+checking item with get action:<Item type="Property" action="get" select="id"><name>itemtype</name><source_id type="ItemType" keyed_name="HC Validation Item">2A448CB136784394AC5F4F0BB81ED55A</source_id></Item>
+-> was obtained from server
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(edit)   id : 48C0DBC79BD841509E49ED2EA9D3ABCD     type : Field  
+Processing (edit)   id : 5CFDC87EC8F14DE68EAC2DA71D076CDE     type : Field  
+********** Start of reference checking ************
+checking item with get action:<Item type="Property" action="get" select="id"><name>itemtype</name><source_id type="ItemType" keyed_name="HC Validation Item">2A448CB136784394AC5F4F0BB81ED55A</source_id></Item>
+-> was obtained from cache
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(edit)   id : 5CFDC87EC8F14DE68EAC2DA71D076CDE     type : Field  
+Processing (delete)     type : View  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : View  
+Processing (delete)     type : Form  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : Form  
+Processing (add)   id : 26A6F9A162F94BD3AF45A5C3862BDD7F    keyed_name : User_26A6F9A162F94BD3AF45A5C3862BDD7F    type : Server Event  
+********** Start of reference checking ************
+checking item with get action:<Item type="Method" action="get" select="id"><name>HC_FixNameIdentity</name></Item>
+-> was obtained from server
+<Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 26A6F9A162F94BD3AF45A5C3862BDD7F    keyed_name : User_26A6F9A162F94BD3AF45A5C3862BDD7F    type : Server Event  
+DELAYED RESOLUTION: applying AML <Item type='ItemType' id='4D1DA47DD2574D06BC31D7308D05F4A4' action='edit' doGetItem='0'><Relationships><Item type='Property' id='A28188031CDA439E90554A0CDFF7DD0F' action='edit'><data_source type='ItemType'><Item type='ItemType' keyed_name='HC Validation Item' action='get'><id>2A448CB136784394AC5F4F0BB81ED55A</id></Item></data_source></Item></Relationships></Item>
+completed
+Updatistart of execution : 09/02/2018 09:51:27
+Updating se.hilleconsultit.hccoreplm to 'inprogress' release status
+       ****Import with merge option se.hilleconsultit.hccoreplm****
+Processing (add)   id : C543385A7DB542E6B6A2AB4B77E432EA    keyed_name : HC_PartBeforePromote    type : Method  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : C543385A7DB542E6B6A2AB4B77E432EA    keyed_name : HC_PartBeforePromote    type : Method  
+Adding item into PackageDefinition with id = C543385A7DB542E6B6A2AB4B77E432EA and type = Method
+Getting config_id  of versionable item  id  C543385A7DB542E6B6A2AB4B77E432EA type Method
+Item successfully added in packdefinition  id  C543385A7DB542E6B6A2AB4B77E432EA type Method
+Processing (add)   id : C835F44B2BD345E2823D035569A14E36    keyed_name : HC_PartGetValidations    type : Method  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : C835F44B2BD345E2823D035569A14E36    keyed_name : HC_PartGetValidations    type : Method  
+Adding item into PackageDefinition with id = C835F44B2BD345E2823D035569A14E36 and type = Method
+Getting config_id  of versionable item  id  C835F44B2BD345E2823D035569A14E36 type Method
+Item successfully added in packdefinition  id  C835F44B2BD345E2823D035569A14E36 type Method
+Processing (add)   id : D30996B812234359B5C741D78B98ACAC    keyed_name : HC_showValidationOnPartForm    type : Method  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>Method</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : D30996B812234359B5C741D78B98ACAC    keyed_name : HC_showValidationOnPartForm    type : Method  
+Adding item into PackageDefinition with id = D30996B812234359B5C741D78B98ACAC and type = Method
+Getting config_id  of versionable item  id  D30996B812234359B5C741D78B98ACAC type Method
+Item successfully added in packdefinition  id  D30996B812234359B5C741D78B98ACAC type Method
+Processing (add)   id : 942C866DB11448E696FFF07D3CC5376C    keyed_name : HC Part Validation    type : RelationshipType  
+********** Start of reference checking ************
+checking item with get action:<Item type="Method" action="get" select="id"><name>HC_PartGetValidations</name></Item>
+-> was obtained from server
+<Item type='ItemType' action='get' select='id'><name>RelationshipType</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+checking RelationshipType's source_id,related_id
+<Item levels='0' action='get' type='ItemType'><id>4D1DA47DD2574D06BC31D7308D05F4A4</id></Item>
+  was obtained from server
+checking RelationshipType's source_id,related_id
+<Item levels='0' action='get' type='ItemType'><id>4F1AC04A2B484F3ABA4E20DB63808A88</id></Item>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 942C866DB11448E696FFF07D3CC5376C    keyed_name : HC Part Validation    type : RelationshipType  
+Adding item into PackageDefinition with id = 942C866DB11448E696FFF07D3CC5376C and type = RelationshipType
+Item successfully added in packdefinition  id  942C866DB11448E696FFF07D3CC5376C type RelationshipType
+Processing (add)   id : 0B9D512688F84EEEB362070A8468EA5B    keyed_name : Part_Form_0B9D512688F84EEEB362070A8468EA5B    type : Field  
+********** Start of reference checking ************
+<Item type='ItemType' action='get' select='id'><name>Field</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : 0B9D512688F84EEEB362070A8468EA5B    keyed_name : Part_Form_0B9D512688F84EEEB362070A8468EA5B    type : Field  
+Adding item into PackageDefinition with id = 0B9D512688F84EEEB362070A8468EA5B and type = Field
+Item successfully added in packdefinition  id  0B9D512688F84EEEB362070A8468EA5B type Field
+Processing (delete)     type : View  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : View  
+Processing (delete)     type : Form  
+********** Start of reference checking ************
+************* End of reference checking ************
+Item successfully applied(delete)     type : Form  
+Processing (add)   id : 28D9295F2FD54E69810D95F22376E971    keyed_name : Part_Form_28D9295F2FD54E69810D95F22376E971    type : Form Event  
+********** Start of reference checking ************
+checking item with get action:<Item type="Method" action="get" select="id"><name>HC_showValidationOnPartForm</name></Item>
+-> was obtained from server
+<Item type='ItemType' action='get' select='id'><name>Form Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from server
+************* End of reference checking ************
+Item successfully applied(add)   id : 28D9295F2FD54E69810D95F22376E971    keyed_name : Part_Form_28D9295F2FD54E69810D95F22376E971    type : Form Event  
+Adding item into PackageDefinition with id = 28D9295F2FD54E69810D95F22376E971 and type = Form Event
+Item successfully added in packdefinition  id  28D9295F2FD54E69810D95F22376E971 type Form Event
+Processing (add)   id : B66C3D749BEB43A3A8A6AD1C88249869    keyed_name : Part_B66C3D749BEB43A3A8A6AD1C88249869    type : Server Event  
+********** Start of reference checking ************
+checking item with get action:<Item type="Method" action="get" select="id"><name>HC_PartBeforePromote</name></Item>
+-> was obtained from server
+<Item type='ItemType' action='get' select='id'><name>Server Event</name><Relationships><Item type='Property' action='get' select='name'/><Item type='RelationshipType' action='get' select='name'/></Relationships></Item>
+  was obtained from cache
+************* End of reference checking ************
+Item successfully applied(add)   id : B66C3D749BEB43A3A8A6AD1C88249869    keyed_name : Part_B66C3D749BEB43A3A8A6AD1C88249869    type : Server Event  
+completed
+Updating se.hilleconsultit

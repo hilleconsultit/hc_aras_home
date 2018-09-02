@@ -1,0 +1,21 @@
+<imports>
+  <package name="se.hilleconsultit.hccore" path="hccore\Import">
+    <dependson name="com.aras.innovator.solution.PLM" />
+  </package>
+  
+  <!--
+  <package name="se.hilleconsultit.hccoreplm" path="hccoreplm\Import">
+    <dependson name="se.hilleconsultit.hccore" />
+    <dependson name="com.aras.innovator.solution.PLM" />
+  </package>
+  -->
+  
+  <!-- <package name="se.hilleconsultit.dominion" path="dominion\Import" /> -->
+  
+  <!--
+  <package name="aras.labs.RefreshFromDatabase" path="RefreshFromDatabase\Import" />
+  <package name="DatabaseIdentifier" path="com\aras\innovator\DatabaseIdentifier" />
+  -->
+ 
+    
+</imports>
